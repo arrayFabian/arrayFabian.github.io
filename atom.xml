@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-04-27T15:29:21.000Z</updated>
+  <updated>2016-04-27T01:37:02.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,36 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title></title>
-    <link href="http://yoursite.com/2016/04/27/%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://yoursite.com/2016/04/27/第一篇博客/</id>
-    <published>2016-04-27T15:29:21.000Z</published>
-    <updated>2016-04-27T15:29:21.000Z</updated>
-    
-    <content type="html">&lt;p&gt;#第一篇博客&lt;/p&gt;
-&lt;p&gt;##一、这是一篇测试文章&lt;/p&gt;
-&lt;p&gt;iOS&lt;br&gt;swift&lt;/p&gt;
-&lt;p&gt;##二、simple code&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;@implementation NSDictionary (Log)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;- (NSString *)descriptionWithLocale:(id)locale&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    NSMutableString *str = [NSMutableString string];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [str appendString:@&amp;quot;&amp;#123;\n&amp;quot;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    // 遍历字典的所有键值对&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [self enumerateKeysAndObjectsUsingBlock:^(id key, id obj, BOOL *stop) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        [str appendFormat:@&amp;quot;\t%@ = %@,\n&amp;quot;, key, obj];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    [str appendString:@&amp;quot;&amp;#125;&amp;quot;];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    // 查出最后一个,的范围&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    NSRange range = [str rangeOfString:@&amp;quot;,&amp;quot; options:NSBackwardsSearch];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    if (range.length) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        // 删掉最后一个,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        [str deleteCharactersInRange:range];&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    return str;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;@end&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;##三、总结&lt;br&gt;GCD&lt;/p&gt;
-&lt;p&gt;runtime&lt;/p&gt;
-&lt;p&gt;HTTP&lt;/p&gt;
-</content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;#第一篇博客&lt;/p&gt;
-&lt;p&gt;##一、这是一篇测试文章&lt;/p&gt;
-&lt;p&gt;iOS&lt;br&gt;swift&lt;/p&gt;
-&lt;p&gt;##二、simple code&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>test</title>
