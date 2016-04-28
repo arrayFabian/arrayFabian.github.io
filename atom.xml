@@ -47,22 +47,6 @@
   </entry>
   
   <entry>
-    <title>test</title>
-    <link href="http://yoursite.com/2016/04/27/test/"/>
-    <id>http://yoursite.com/2016/04/27/test/</id>
-    <published>2016-04-27T01:37:02.000Z</published>
-    <updated>2016-04-27T01:37:02.000Z</updated>
-    
-    <content type="html"></content>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
     <link href="http://yoursite.com/2016/04/26/hello-world/"/>
     <id>http://yoursite.com/2016/04/26/hello-world/</id>
